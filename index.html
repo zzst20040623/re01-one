@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>展示图片</title>
+    <style>
+        /* 简单居中样式 */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* 让内容垂直居中 */
+            background-color: #f0f0f0; /* 浅灰色背景 */
+        }
+
+        img {
+            max-width: 100%; /* 防止图片溢出屏幕 */
+            height: auto;    /* 保持比例 */
+            box-shadow: 0 0 10px rgba(0,0,0,0.3); /* 添加阴影效果 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 图片容器 -->
+    <div class="image-container">
+        <img src="img/2.jpg">
+    </div>
+</body>
+</html>
